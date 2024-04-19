@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background: #87CEFA;
+    color:  #FFFFFF
+ 
+}
+a {
+    text-decoration: none;
+}
+ul {list-style: none;}
+
+nav {
+    max-width: auto;
+    margin:auto ;
+    padding: 1.5rem 10rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+
+
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    color: #800080;
+}
+
+.github {
+    color: #fff2e7;
+    font-weight: 600;
+}
+main{
+    display: flex;
+    flex-direction:column;
+   
+}
+
+.hero {
+    background: #4169E1;
+
+    max-width: 1400px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: row;
+    
+    
+    gap: 6rem;
+
+    padding: 0rem 2rem;
+
+    
+
+}
+
+.hero-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+   
+
+    
+
+}
+
+.hero-imagens-container {
+    max-width: 100%;
+    
+    
+
+
+}
+
+.hero-imagens-container >figure >img {
+    
+    width: 128%;
+
+}
+
+
+.hero-imagens {
+    max-width: 100%;
+    column-count: 3;
+
+}
+
+.hero-imagens > figure > img {
+    width: 100%;
+    border-radius: 0.5rem;
+
+}
+
+#serviços {
+    font-size: 5e ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+
+#galeria {
+    font-size: 5e ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #4169E1;
+
+}
+
+.galeria-fotos {
+    max-width: 120%;
+    column-count: 3;
+    background: transparent;
+    column-gap: 1rem;
+    padding: 0rem 2 rem;
+    margin: auto;
+    
+   
+
+}
+
+#equipe-nome {
+    font-size: 5e ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #4169E1;
+}
+
+#convenio {
+    font-size: 5e ;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background: #4169E1;
+}
+
+.butao {
+    text-align: center;
+}
+
+.base {
+    text-align: center
+}
+#contato {
+    text-align: center;
+    background: #4169E1;
+}
+
+
+
+
+
