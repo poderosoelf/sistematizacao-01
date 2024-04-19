@@ -5,6 +5,9 @@ Professor Leonardo Reboucas. Matéria: desenvolvimento web.
 
 O trabalho consistia em : Criar uma landing page estática apresentando as principais informações de uma clínica, bem como seus principais serviços.
 
-O que usei? 
+O que usei?
+
 .HTML
+
 .CSS
+
